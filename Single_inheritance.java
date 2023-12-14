@@ -1,10 +1,10 @@
 class Person{
     String name,address;
     int age;
-    Person(String name,String address,int age){
-        this.name=name;
-        this.address=address;
-        this.age=age;
+    Person(String n,String a,int ag){
+        name=n;
+        address=a;
+        age=ag;
     }
     public void display(){
         System.out.println("Name = "+name+"\nAddress = "+address+"\nAge = "+age);
@@ -13,10 +13,10 @@ class Person{
 class Student extends Person{
     String department;
     int roll;
-    Student(String name,String address,int age,String department,int roll){
-        super(name,address,age);
-        this.department=department;
-        this.roll=roll;
+    Student(String n,String a,int ag,String d,int r){
+        super(n,a,ag);
+        department=d;
+        roll=r;
     }
     public void display(){
         super.display();

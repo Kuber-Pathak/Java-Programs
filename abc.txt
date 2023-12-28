@@ -1,1 +1,2 @@
-My ne sdasdassdadjasdas 
+Name = Ram
+Address = kathmandu

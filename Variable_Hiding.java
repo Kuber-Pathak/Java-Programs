@@ -1,3 +1,4 @@
+//Here the variable 'a' of "Super" class is hidden and only variable 'a' of sub class is shown
 class Super {
     int a = 10;
 }

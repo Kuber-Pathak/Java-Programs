@@ -26,7 +26,7 @@ class Calculator_Using_swing extends JFrame implements ActionListener {
         // setting the layout and other properties
         setLayout(null);
         tf3.setEditable(false);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(500, 500);
         setVisible(true);
 
@@ -61,7 +61,7 @@ class Calculator_Using_swing extends JFrame implements ActionListener {
         sub.addActionListener(this);
     }
 
-    public void actionPerformed(ActionEvent e){
+    public void actionPerformed(ActionEvent e) {
         // converting the textfield input to double
         double num1 = Double.parseDouble(tf1.getText());
         double num2 = Double.parseDouble(tf2.getText());

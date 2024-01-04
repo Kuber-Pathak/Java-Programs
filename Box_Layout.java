@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 
 class Box extends JFrame {
     JButton btn1, btn2, btn3, btn4, btn5;

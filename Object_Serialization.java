@@ -30,6 +30,7 @@ public class Object_Serialization {
         ObjectInputStream ois = new ObjectInputStream(fis);
         Student std = (Student) ois.readObject();
         std.display();
+        System.out.println("DeSerialization complete");
         ois.close();
         fis.close();
 

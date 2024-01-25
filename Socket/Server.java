@@ -1,3 +1,6 @@
+//Here ServerSocket is used as a gateway so that client can connect to server
+//Socket is used to accept the client using accept()
+
 package Socket;
 
 import java.net.*;
@@ -12,7 +15,7 @@ public class Server {
         OutputStream os = clientSocket.getOutputStream();
         DataOutputStream dos = new DataOutputStream(os);
         int num = dis.readInt();
-        dos.writeInt(num*num);
+        dos.writeInt(num * num);
         dos.flush();
         dos.close();
         os.close();

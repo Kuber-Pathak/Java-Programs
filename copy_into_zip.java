@@ -20,6 +20,7 @@ public class copy_into_zip {
         }
         System.out.println("Copy Complete");
         zos.closeEntry();
+        zos.close();
 
         FileInputStream zis = new FileInputStream("student.zip");
         ZipInputStream is = new ZipInputStream(zis);
@@ -29,6 +30,8 @@ public class copy_into_zip {
             System.out.print((char) data);
         }
 
+        is.getNextEntry();
+        is.close();
         zis.close();
         fis.close();
         fos.close();

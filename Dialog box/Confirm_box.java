@@ -9,11 +9,12 @@ class BOX extends WindowAdapter {
         f.setSize(500, 500);
         f.setVisible(true);
         f.setLayout(null);
+        f.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         f.addWindowListener(this);
 
     }
 
-    public void windowClosingEvent(WindowEvent e) {
+    public void windowClosing(WindowEvent e) {
         int a = JOptionPane.showConfirmDialog(f, "Are you sure ?", "warning", JOptionPane.YES_NO_CANCEL_OPTION,
                 JOptionPane.WARNING_MESSAGE);
         if (a == JOptionPane.YES_OPTION) {

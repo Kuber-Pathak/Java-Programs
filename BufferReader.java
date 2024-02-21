@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class test {
+public class BufferReader {
     public static void main(String[] args) throws Exception {
         FileReader fis = new FileReader("abc.txt");
         BufferedReader bfs = new BufferedReader(fis);
@@ -8,7 +8,6 @@ public class test {
         while (str != null) {
             if (str.contains("kathmandu")) {
                 System.out.println(str);
-
             }
             str = bfs.readLine();
         }

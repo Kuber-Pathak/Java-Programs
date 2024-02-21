@@ -1,4 +1,4 @@
-import javax.management.JMException;
+
 import javax.swing.*;
 import java.awt.event.*;;
 
@@ -9,6 +9,7 @@ class Menu extends JFrame implements ActionListener {
 
     Menu() {
         setLayout(null);
+        setSize(500,500);
         setVisible(true);
         mb = new JMenuBar();
         file = new JMenu("File");
@@ -37,7 +38,7 @@ class Menu extends JFrame implements ActionListener {
 }
 
 public class Menu_bar {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         new Menu();
     }
 }

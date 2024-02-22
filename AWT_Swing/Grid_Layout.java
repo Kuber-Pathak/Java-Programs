@@ -1,9 +1,11 @@
+package AWT_Swing;
 import javax.swing.*;
+import java.awt.*;
 
-class Box extends JFrame {
+class Grid extends JFrame {
     JButton btn1, btn2, btn3, btn4, btn5;
 
-    Box() {
+    Grid() {
         btn1 = new JButton("1");
         btn2 = new JButton("2");
         btn3 = new JButton("3");
@@ -13,12 +15,7 @@ class Box extends JFrame {
         setSize(500, 500);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(new BoxLayout(this.getContentPane(), BoxLayout.Y_AXIS));
-        btn1.setAlignmentX(CENTER_ALIGNMENT);
-        btn2.setAlignmentX(CENTER_ALIGNMENT);
-        btn3.setAlignmentX(CENTER_ALIGNMENT);
-        btn4.setAlignmentX(CENTER_ALIGNMENT);
-        btn5.setAlignmentX(CENTER_ALIGNMENT);
+        setLayout(new GridLayout(3, 2));
 
         add(btn1);
         add(btn2);
@@ -29,8 +26,8 @@ class Box extends JFrame {
     }
 }
 
-public class Box_Layout {
+public class Grid_Layout {
     public static void main(String[] args) {
-        new Box();
+        new Grid();
     }
 }

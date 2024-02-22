@@ -2,6 +2,7 @@
 // Then for input we opened a ZipEntry and we used putNextEntry() to start writin in zip file.
 //after writing using write().We have to open new streams for reading from zip file.
 //The getNextEntry() points the start of the zip file and read() reads data from zip file.
+package Stream_Classes;
 
 import java.io.*;
 import java.util.zip.*;

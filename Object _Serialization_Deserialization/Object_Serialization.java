@@ -1,4 +1,3 @@
-
 //Serialization in Java is the concept of representing an object's state as a byte stream.
 //Here ObjectOutputStream is used to serialize the Student object into serialize.txt
 import java.io.*;

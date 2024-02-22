@@ -2,7 +2,7 @@ package Database;
 
 import java.sql.*;
 
-public class connect {
+public class read {
     public static void main(String[] args) throws Exception {
         String url = "jdbc:mysql://localhost:3306/java_programs";
         Class.forName("com.mysql.cj.jdbc.Driver");

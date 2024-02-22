@@ -1,3 +1,5 @@
+
+
 abstract class Shape {
     public void display() {
         System.out.println("Abstract class");

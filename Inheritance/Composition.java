@@ -1,4 +1,3 @@
-import javax.print.DocFlavor.STRING;
 
 class Address {
     String city, zone, district;

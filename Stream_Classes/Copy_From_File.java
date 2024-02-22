@@ -1,4 +1,4 @@
-
+package Stream_Classes;
 //For just copy we read from one file and write it into another file
 //Here we are using buffer insted of file becouse file takes a lot of time to copy large file.
 //But buffer copies the file instantly.

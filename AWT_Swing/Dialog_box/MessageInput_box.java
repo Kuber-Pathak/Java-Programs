@@ -2,6 +2,7 @@
 //Also we have messgae box that displays message to the user.
 //QUESTION_MESSAGE is used to show questionmark on the box.
 //INFORMATION_MESSAGE shows i on the box.
+package AWT_Swing.Dialog_box;
 
 import javax.swing.*;
 

@@ -1,9 +1,10 @@
 
 //WAP to insert elements in an array and delete an element from an array at specified position.
+
 import java.util.Scanner;
 import java.util.Arrays;
 
-class ArrayExample1 {
+class Array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10];
@@ -15,6 +16,7 @@ class ArrayExample1 {
         }
         System.out.println("Enter position of element to be deleted:");
         pos = sc.nextInt();
+        sc.close();
 
         if (pos < 1 || pos > 10) {
             System.out.println("Invalid position. Element not deleted.");
@@ -31,6 +33,7 @@ class ArrayExample1 {
                 System.out.print(arr[i] + " ");
             }
             System.out.println();
+
         }
     }
 }

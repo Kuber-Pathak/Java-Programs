@@ -1,6 +1,7 @@
 
 //A border layout lays out a container, arranging and resizing its components to fit in five regions:
 // north, south, east, west, and center
+package AWT_Swing;
 import javax.swing.*;
 import java.awt.*;
 

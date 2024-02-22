@@ -1,5 +1,6 @@
 //Here we use getContentPane() to catch the background and setBackground() sets the backgroud.
 //setBackground() has Color class that is used to change the color
+package AWT_Swing;
 
 import javax.swing.*;
 import java.awt.*;

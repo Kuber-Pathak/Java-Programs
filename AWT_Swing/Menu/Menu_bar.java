@@ -1,3 +1,4 @@
+package AWT_Swing.Menu;
 
 import javax.swing.*;
 import java.awt.event.*;;
@@ -9,7 +10,7 @@ class Menu extends JFrame implements ActionListener {
 
     Menu() {
         setLayout(null);
-        setSize(500,500);
+        setSize(500, 500);
         setVisible(true);
         mb = new JMenuBar();
         file = new JMenu("File");

@@ -1,3 +1,4 @@
+package Stream_Classes;
 
 //To read a data from file .First we open file in read mode using FileInputStream
 //then we use read() fuction to read the data and at the end of the file it returns -1

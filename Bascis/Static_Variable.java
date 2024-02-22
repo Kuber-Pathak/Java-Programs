@@ -3,6 +3,8 @@
 //rather than each instance having its own copy.
 //A static variable can be called without creating an instance of the class
 //,it is called using the class name
+
+
 class test {
     static int static_var = 1; // static variable
 

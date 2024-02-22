@@ -1,3 +1,4 @@
+package Stream_Classes;
 
 //To write a data from file .First we open file in write mode using FileOutputStream.
 //Take input from user then we use write() fuction to write the data in file.

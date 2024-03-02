@@ -12,7 +12,7 @@ class test {
 
 public class Static_Variable {
     public static void main(String[] args) {
-        System.out.println("static_var: " + BufferReader.static_var);
+        System.out.println("static_var: " + test.static_var);
     }
 
 }

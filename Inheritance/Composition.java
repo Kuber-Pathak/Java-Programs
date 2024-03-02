@@ -20,7 +20,6 @@ class Person {
         name = n;
 
     }
-
     void display() {
         System.out.println("Name = " + name);
     }

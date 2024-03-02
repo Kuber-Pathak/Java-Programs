@@ -4,7 +4,7 @@ import java.io.*;
 
 public class BufferReader {
     public static void main(String[] args) throws Exception {
-        FileReaderDemo fis = new FileReaderDemo("abc.txt");
+        FileReader fis = new FileReader("Stream_Classes/abc.txt");
         BufferedReader bfs = new BufferedReader(fis);
         String str = bfs.readLine();
         while (str != null) {

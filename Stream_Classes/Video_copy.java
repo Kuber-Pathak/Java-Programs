@@ -4,7 +4,7 @@ package Stream_Classes;
 //But buffer copies the file instantly.
 import java.io.*;
 
-public class Copy_From_File {
+public class Video_copy {
     public static void main(String[] args) throws Exception {
         FileInputStream fis = new FileInputStream("vid.mp4");
         FileOutputStream fos = new FileOutputStream("vid_copy.mp4");

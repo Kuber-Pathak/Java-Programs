@@ -22,7 +22,6 @@ public class copy_into_zip {
         System.out.println("Copy Complete");
         zos.closeEntry();
         zos.close();
-
         FileInputStream zis = new FileInputStream("student.zip");
         ZipInputStream is = new ZipInputStream(zis);
 
